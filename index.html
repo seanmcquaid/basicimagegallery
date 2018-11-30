@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title>Dank Memes and Broken Dreams</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet"/>
 </head>
 <body>
     <div id="gallery">
         <div id="title">
             <h1>The Many Faces of Al Roker</h1>
         </div>
-        <div id="small-images">
-            <h2>Smaller Images</h2>
-        </div>
         <div id="large-image">
-            <h2>Large Image</h2>
+            <h2>Oh No.....He Didn't!</h2>
+            <img class="large-pic"src="alroker1.jpg"name="bigImage" >
         </div>
-        <div id-="footer"></div>
+        <div id="small-images">
+            <h2>Oh Yes, He Did!</h2>
+            <div class="image">
+            <img class="small-pics"src="alroker1.jpg"onclick="bigImage.src = this.src"/>
+            <div class="caption">Marty! I need to you go back with me!</div>
+            </div>
+            <div class="image">
+            <img class="small-pics"src="alroker2.jpg"onclick="bigImage.src = this.src"/>
+            <div class="caption">You can't catch me, I'm the Gingerbread Man!</div>
+            </div>
+            <div class="image">
+            <img class="small-pics"src="alroker3.png"onclick="bigImage.src = this.src"/>
+            <div class="caption">REALLY?!</div>
+            </div>
+            <div class="image">
+            <img class="small-pics"src="alroker4.jpg"onclick="bigImage.src = this.src"/>
+            <div class="caption">What will this man NOT WEAR?!?!</div>
+            </div>
+            <div class="image">
+            <img class="small-pics"src="alroker5.jpg"onclick="bigImage.src = this.src"/>
+            <div class="caption">At least he has a good secret identity!</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

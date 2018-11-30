@@ -1,6 +1,32 @@
 * {
     text-align: center;
+    font-family: 'Barlow', sans-serif;
+    background-color: #0B0C10;
+    color: #66FCF1;
 }
-#gallery {
-    border: 2px solid black;
+
+h2 {
+    color: #45A29E;
+}
+
+.image {
+    display: inline-block;
+}
+
+.small-pics {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.caption {
+    color: white;
+    padding: 10px;
+}
+
+.large-pic {
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
 }
